@@ -67,10 +67,97 @@ Supondo que o título da notícia esteja dentro de um elemento HTML com um ID ou
 document.querySelector('.titulo-noticia').innerText = 'Novo título da notícia';
 ```
 
+---
+
+## Aula 02 - Como chegamos até aqui?
+
+A história da internet e das tecnologias web evoluiu de maneira rápida e fascinante. Vamos entender como tudo se desenvolveu:
+
+- **1970 - Surgimento da Internet:**
+  A internet começou como um projeto militar nos EUA chamado **ARPANET**, que ligava computadores em rede. O objetivo era permitir a troca de informações entre instituições militares e acadêmicas de forma rápida e segura. Ao longo dos anos, ela foi se expandindo até se tornar a base da internet que conhecemos hoje.
+
+- **1993 - Surgimento do HTML e da WWW:**
+  O **HTML (Hypertext Markup Language)** foi criado por **Tim Berners-Lee**. Ele criou a linguagem para construir páginas web que podiam ser visualizadas em navegadores. No mesmo ano, surgiu a **World Wide Web (WWW)**, que permitia a interligação de páginas através de links, possibilitando a navegação na internet como conhecemos hoje.
+
+- **1995 - Surgimento do JavaScript:**
+  **Brendan Eich**, trabalhando para a empresa **Netscape**, criou o **JavaScript**.
 
 
-dicas de aprendizagem
-js versus ecmascript
-requisitos de software
-primeiros scripts em js
+Aqui estão as respostas detalhadas para suas perguntas:
+
+### 1. **Qual empresa criou o JavaScript?**
+   O **JavaScript** foi criado pela empresa **Netscape Communications** em 1995. O desenvolvedor **Brendan Eich** foi o responsável por desenvolver a linguagem em apenas 10 dias, com o objetivo de permitir que páginas web fossem dinâmicas e interativas dentro do navegador **Netscape Navigator**, que era muito popular na época.
+
+### 2. **Java e JavaScript possuem alguma relação?**
+   Apesar dos nomes parecidos, **Java** e **JavaScript** não têm uma relação direta. São duas linguagens de programação completamente diferentes:
+   - **Java** é uma linguagem orientada a objetos, desenvolvida pela **Sun Microsystems** (agora parte da Oracle) em 1995. É usada para desenvolver aplicativos de grande escala, incluindo aplicativos desktop, mobile e enterprise.
+   - **JavaScript**, por outro lado, foi criado como uma linguagem de script para tornar as páginas da web mais interativas. JavaScript é mais focado no frontend (embora, com o surgimento de tecnologias como Node.js, ele também seja usado no backend).
+
+   O nome **JavaScript** foi escolhido por razões de marketing, já que **Java** estava muito popular na época, mas a semelhança termina no nome.
+
+### 3. **O ECMAScript tem a ver com JavaScript?**
+   Sim, **ECMAScript** e **JavaScript** estão diretamente relacionados. **ECMAScript** é o nome oficial do padrão que define como o JavaScript deve funcionar. A primeira padronização ocorreu em **1997**, sob a organização **ECMA International**. JavaScript é uma implementação desse padrão.
+
+   A relação é a seguinte:
+   - **JavaScript** é o nome usado para a implementação da linguagem nos navegadores e na web.
+   - **ECMAScript** é o nome técnico do padrão que as várias implementações de JavaScript seguem. Toda atualização significativa da linguagem JavaScript, como ES6 (lançada em 2015), é formalmente uma atualização do ECMAScript.
+
+### 4. **Sabia que o WhatsApp é criado em JavaScript?**
+   Sim, o **WhatsApp** utiliza **JavaScript** extensivamente em seu desenvolvimento, especialmente no **WhatsApp Web**. Ele foi construído usando uma tecnologia chamada **Node.js**, que permite que o JavaScript seja executado no servidor (backend). Isso permite que o WhatsApp ofereça a versão web do aplicativo e manuseie comunicação em tempo real com seus servidores.
+
+Em resumo:
+- **JavaScript** é a linguagem usada para adicionar interatividade à web.
+- **Java** e **JavaScript** não têm ligação, apesar do nome.
+- **ECMAScript** é o padrão que define como JavaScript deve ser.
+- O **WhatsApp Web** e outros sistemas de backend do WhatsApp são escritos em JavaScript utilizando o Node.js.
+
+---
+
+## Aula 03 - Dando os primeiros passos
+
+Nesta aula, são fornecidas dicas importantes para começar a aprender **JavaScript** e, mais especificamente, como desenvolver suas habilidades na programação. Vamos destrinchar o conteúdo:
+
+### 1. **Dicas para aprender JavaScript de forma eficiente:**
+   - **Não pule, assista tudo:** Cada detalhe conta no aprendizado de programação, então é importante seguir todas as aulas com atenção para não perder nenhum conceito.
+   - **Anote tudo:** Fazer anotações enquanto estuda ajuda a fixar o conteúdo e é útil para consultar mais tarde.
+   - **Use duas telas:** Ter duas telas facilita muito o aprendizado, pois você pode manter o vídeo da aula em uma tela e o editor de código ou navegador na outra, permitindo praticar simultaneamente.
+   - **Leia livros e guias:** Além de assistir às aulas, ler livros e guias é uma ótima forma de aprofundar o conhecimento e aprender com diferentes abordagens e exemplos.
+   - **Pratique:** A prática é essencial para aprender a programar. Quanto mais você codificar, mais rápido você vai absorver os conceitos.
+   - **Compartilhe:** Compartilhar seu conhecimento com outros, seja em grupos de estudo ou redes sociais, ajuda a reforçar o que aprendeu e, possivelmente, aprender com os outros.
+   - **Crie projetos:** A melhor maneira de consolidar o aprendizado é aplicando-o. Crie pequenos projetos (páginas web, jogos simples, etc.) para colocar em prática o que você aprendeu.
+
+### 2. **Bibliografia recomendada:**
+   Estes dois livros são clássicos e altamente recomendados para quem está aprendendo ou deseja se aprofundar em **JavaScript**:
+
+   - **"JavaScript: O Guia Definitivo"** de David Flanagan:
+     Esse livro é uma referência muito completa e técnica, ideal para aqueles que querem entender a fundo todos os aspectos da linguagem JavaScript, desde o básico até conceitos avançados.
+   
+   - **"JavaScript: Guia do Programador"** de David Flanagan:
+     Focado em práticas para desenvolvedores, este livro apresenta exemplos práticos, técnicas e dicas sobre como escrever código JavaScript de maneira eficiente e eficaz.
+
+### 3. **Guias de referência gratuitos:**
+   Além dos livros, é sempre bom consultar recursos online, que são constantemente atualizados. Dois dos melhores guias de referência gratuitos são:
+
+   - **Mozilla Developer Network (MDN):**
+     O **MDN Web Docs** é uma das melhores fontes online para aprender **JavaScript** (e outras tecnologias da web, como HTML e CSS). Ele tem exemplos, explicações detalhadas e tutoriais.
+     - Link: https://developer.mozilla.org
+
+   - **ECMA (ECMAScript Standard):**
+     A organização **ECMA International** é responsável pelo padrão oficial do **JavaScript**, chamado **ECMAScript**. Você pode consultar diretamente os documentos oficiais e o guia da linguagem.
+     - Link: https://www.ecma-international.org/publications-and-standards/
+
+### 4. **Requisitos para começar a programar em JavaScript:**
+
+Para começar a praticar **JavaScript**, você precisa de algumas ferramentas básicas:
+
+   - **Navegador:**
+     O JavaScript é executado principalmente nos navegadores, como **Google Chrome**, **Firefox**, ou **Edge**. Esses navegadores possuem um console embutido, onde você pode escrever e testar códigos JavaScript em tempo real. O Chrome DevTools, por exemplo, é uma ferramenta poderosa para depuração e testes.
+   
+   - **Editor de código:**
+     Para escrever código de maneira eficiente, é recomendável usar um **editor de código** especializado, como o **Visual Studio Code (VS Code)**, **Sublime Text**, ou **Atom**. Esses editores oferecem recursos como realce de sintaxe, sugestões de código e integração com o terminal, facilitando o desenvolvimento.
+
+   - **Node.js:**
+     **Node.js** é um ambiente de execução de **JavaScript** no lado do servidor. Com ele, você pode executar códigos JavaScript fora do navegador, criar servidores, manipular arquivos, e desenvolver aplicativos backend. Node.js expande muito o que você pode fazer com JavaScript, permitindo criar aplicações completas.
+
+
 
