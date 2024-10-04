@@ -160,4 +160,58 @@ Para começar a praticar **JavaScript**, você precisa de algumas ferramentas b�
      **Node.js** é um ambiente de execução de **JavaScript** no lado do servidor. Com ele, você pode executar códigos JavaScript fora do navegador, criar servidores, manipular arquivos, e desenvolver aplicativos backend. Node.js expande muito o que você pode fazer com JavaScript, permitindo criar aplicações completas.
 
 
+## Aula 04 - Criando seu primeiro Scripts
+
+```html
+<script>
+    // Meu primeiro comando em JavaScript
+
+    window.alert('Ola, mundo!');
+    
+    window.confirm('Está gostando de Javascript?');
+    
+    window.prompt('Agora Digite seu nome:');
+</script>
+```
+
+### 1. <script>
+  - A tag `<script>` é usada para incluir ou escrever código JavaScript em uma página HTML. O código dentro dessa tag será executado pelo navegador quando a página for carregada.
+  - Nesse caso, o código JavaScript está sendo escrito diretamente no arquivo HTML. Alternativamente, você poderia usar a tag `<script>` para vincular um arquivo externo de JavaScript.
+
+### 2. **Comentário (`// Meu primeiro comando em JavaScript`)**
+   - **Comentário**: `//` é utilizado para adicionar comentários no código. Comentários são ignorados pelo navegador e servem para explicar o código ou fazer anotações para o programador. 
+   - Neste caso, o comentário é "Meu primeiro comando em JavaScript".
+
+### 3. **`window.alert('Ola, mundo!')`**
+   - **`window.alert()`** é uma função que exibe uma **caixa de alerta** no navegador com uma mensagem.
+   - Neste caso, a caixa de alerta vai mostrar o texto **"Ola, mundo!"**. O usuário verá uma janela popup com essa mensagem e precisará clicar em "OK" para fechar a caixa.
+
+### 4. **`window.confirm('Está gostando de Javascript?')`**
+   - **`window.confirm()`** exibe uma **caixa de confirmação** com uma mensagem e dois botões: **OK** e **Cancelar**.
+   - A pergunta que será exibida é **"Está gostando de Javascript?"**. Dependendo da resposta do usuário, o comando pode retornar `true` (se o usuário clicar em **OK**) ou `false` (se o usuário clicar em **Cancelar**). 
+   - Nesse código, o retorno de `true` ou `false` não está sendo armazenado ou utilizado, mas poderia ser usado para tomar decisões no código.
+
+### 5. **`window.prompt('Agora Digite seu nome:')`**
+   - **`window.prompt()`** exibe uma **caixa de diálogo** com uma mensagem e um campo de texto, onde o usuário pode digitar algo.
+   - Neste caso, a mensagem exibida será **"Agora Digite seu nome:"**, e o usuário poderá digitar seu nome ou outro valor.
+   - O valor que o usuário digitar será retornado como uma string. Neste código, o valor digitado não está sendo armazenado, mas poderia ser salvo em uma variável para uso posterior.
+
+---
+
+### Resumo do que o código faz:
+1. Mostra um alerta simples com a mensagem "Ola, mundo!".
+2. Exibe uma caixa de confirmação perguntando se o usuário está gostando de JavaScript, onde ele pode escolher entre "OK" ou "Cancelar".
+3. Abre uma caixa de prompt que pede para o usuário digitar seu nome.
+
+O código não armazena os resultados do `confirm()` e `prompt()`, mas isso pode ser feito com variáveis, por exemplo:
+
+```javascript
+let resposta = window.confirm('Está gostando de Javascript?');
+let nome = window.prompt('Agora Digite seu nome:');
+```
+
+Esses valores poderiam ser usados para personalizar a interação com o usuário.
+
+
+
 
